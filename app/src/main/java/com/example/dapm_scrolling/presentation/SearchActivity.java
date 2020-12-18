@@ -164,7 +164,7 @@ public class SearchActivity extends AppCompatActivity {
         if(select.equals(getString(R.string.itemsearch_id))){
             campo = "idvehicle";
         }else if(select.equals(getString(R.string.itemsearch_marca))){
-            campo = "brand";
+            campo = "marca";
         }else if(select.equals(getString(R.string.itemsearch_modelo))){
             campo = "modelo";
         }else if(select.equals(getString(R.string.itemsearch_tipo))){

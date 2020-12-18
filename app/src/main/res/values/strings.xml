@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AutoLote</string>
+    <string name="app_name">Autolote</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -115,8 +115,8 @@
 
 
     <!-- search -->
-    <string name="formsearch_title">Buscar Cliente</string>
-    <string name="formsearch_value">Valor a buscar</string>
+    <string name="formsearch_title">Buscar Vehiculo</string>
+    <string name="formsearch_value">Buscar</string>
     <string name="formsearch_search_for">Buscar por</string>
     <string name="formsearch_select_option">Seleccione una opción</string>
 

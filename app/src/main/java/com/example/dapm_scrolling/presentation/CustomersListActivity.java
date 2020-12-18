@@ -17,6 +17,7 @@ import com.example.dapm_scrolling.R;
 import com.example.dapm_scrolling.data.AdapterCustomer;
 import com.example.dapm_scrolling.db.DBCustomer;
 import com.example.dapm_scrolling.model.Customer;
+import android.content.Intent;
 
 import java.util.ArrayList;
 
@@ -44,7 +45,6 @@ public class CustomersListActivity extends AppCompatActivity {
         //administrar el RecyclerView
         rcvCustomers.setLayoutManager(new LinearLayoutManager(this));
 
-        //llenar el arreglo de clientes
         fillCustomersList();
 
         AdapterCustomer adapter = new AdapterCustomer(listCustomers);
@@ -52,7 +52,8 @@ public class CustomersListActivity extends AppCompatActivity {
         adapter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(CustomersListActivity.this, "Click", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent (view.getContext(), EditActivity.class);
+                startActivityForResult(intent, 0);
             }
         });
 

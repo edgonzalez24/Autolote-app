@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Name"
+                android:text="@string/formnew_marca"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:layout_marginTop="5dp"
-                android:text="Gender"
+                android:text="@string/formnew_modelo"
                 android:textSize="15dp" />
 
             <TextView
@@ -38,29 +38,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:layout_marginTop="5dp"
-                android:text="Phone"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                android:text="@string/formnew_color"
+                android:textSize="15dp" />
 
             <TextView
                 android:id="@+id/txvAnio"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:layout_marginTop="5dp"
-                android:text="Address"
+                android:text="@string/formnew_anio"
                 android:textSize="15dp" />
 
             <TextView
                 android:id="@+id/txvTipo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:layout_marginTop="5dp"
-                android:text="Email"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                android:text="@string/formnew_tipo"
+                android:textSize="15dp" />
 
         </LinearLayout>
-        
+
 
         <ImageView
             android:id="@+id/imgRight"
