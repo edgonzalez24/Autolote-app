@@ -63,7 +63,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/edtName"
+                android:id="@+id/edtMarca"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -110,7 +110,6 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/formnew_modelo"
-                android:inputType="phone"
                 android:padding="15dp"
                 android:textSize="18sp" />
 
@@ -131,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/formnew_anio"
-                android:inputType="textEmailAddress"
+                android:inputType="phone"
                 android:padding="15dp"
                 android:textSize="18sp" />
 

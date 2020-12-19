@@ -52,8 +52,7 @@ public class CustomersListActivity extends AppCompatActivity {
         adapter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent (view.getContext(), EditActivity.class);
-                startActivityForResult(intent, 0);
+                Toast.makeText(CustomersListActivity.this, "Click", Toast.LENGTH_SHORT).show();
             }
         });
 

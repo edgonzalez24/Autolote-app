@@ -135,7 +135,7 @@ public class EditActivity extends AppCompatActivity {
                 data.put("tipo", tipo);
 
                 //editar
-                db.update("customers", data, "idcustomer="+txvId.getText().toString(),null);
+                db.update("customers", data, "idvehicle="+txvId.getText().toString(),null);
 
                 //cerrar la conexión
                 db.close();
@@ -163,7 +163,7 @@ public class EditActivity extends AppCompatActivity {
                     SQLiteDatabase db = admin.getWritableDatabase();
 
                     //borrar
-                    db.delete("customers", "idcustomer=" + txvId.getText().toString(), null);
+                    db.delete("customers", "idvehicle=" + txvId.getText().toString(), null);
                     //cerrar la conexión
                     db.close();
 
